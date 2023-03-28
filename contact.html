@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Street Fighter 5</title>
+  <meta name="description" content="sf5">
+  <meta name="robots" content="noindex, nofollow">
+
+
+  <!-- add the CSS -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=PT+Sans:ital@1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- link the javascript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+  
+<header id="header"> </header>
+
+  <!-- Body contains main info -->
+<body>
+  <img src="img/aboutcontact.jpg">
+  <div class="company">
+  <div class="overlayText">
+        <img src="img/Barrier.png">
+        <img class="fighter" src="img/akuma.png" alt="akuma posing">
+        <div class="flex-container">
+        <h1 class="topText">Contact Us</h1>
+        <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+      
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+      </div>
+  </div>
+</body>
+<footer id="footer"> </footer>
+
+</html>
